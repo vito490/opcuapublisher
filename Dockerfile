@@ -1,4 +1,4 @@
-FROM dotnet:2.1 AS build
+FROM dotnet:2.1
 WORKDIR /app
 
 # copy csproj and restore as distinct layers
