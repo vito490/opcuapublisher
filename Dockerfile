@@ -16,7 +16,7 @@ WORKDIR /app/opcpublisher
 RUN dotnet publish -c Release -o out
 
 # start it up
-FROM microsoft/dotnet:${runtime_base_tag} AS runtime
+FROM openshift/dotnet:2.1 AS runtime
 WORKDIR /app
 COPY --from=build /app/opcpublisher/out ./
 COPY ./src/*.json /appdata/
