@@ -1,7 +1,4 @@
-ARG runtime_base_tag=43234
-ARG build_base_tag=24234
-
-FROM microsoft/dotnet:${build_base_tag} AS build
+FROM openshift/dotnet:2.1 AS build
 WORKDIR /app
 
 # copy csproj and restore as distinct layers
