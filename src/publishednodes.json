@@ -1,0 +1,20 @@
+﻿[
+    {
+        // example for an EnpointUrl is: opc.tcp://192.168.178.26:62541/Quickstarts/ReferenceServer
+        "EndpointUrl": "opc.tcp://host.docker.internal:53530/OPCUA/SimulationServer",
+        // allows to access the endpoint with SecurityPolicy.None when set to 'false' (no signing and encryption applied to the OPC UA communication), default is true
+        "UseSecurity": false,
+        "OpcNodes": [
+            {
+                // identifies the OPC node to publish in either NodeId format (contains "ns=") or ExpandedNodeId format (contains "nsu=")
+                "Id": "ns=3;s=Random",
+               
+            }, 
+			{
+                // identifies the OPC node to publish in either NodeId format (contains "ns=") or ExpandedNodeId format (contains "nsu=")
+                "Id": "ns=3;s=Counter",
+               
+            }
+        ]
+    }
+]

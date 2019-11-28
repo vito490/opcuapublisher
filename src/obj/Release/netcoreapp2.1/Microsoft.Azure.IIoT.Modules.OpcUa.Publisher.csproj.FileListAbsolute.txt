@@ -1,0 +1,9 @@
+C:\Users\VITOSammarco\Desktop\Lavoro\IoT Snam\Scada Stoccaggio\Microsoft.Azure.IIoT.Modules.OpcUa.Publisher\src\bin\Release\netcoreapp2.1\opcpublisher.deps.json
+C:\Users\VITOSammarco\Desktop\Lavoro\IoT Snam\Scada Stoccaggio\Microsoft.Azure.IIoT.Modules.OpcUa.Publisher\src\bin\Release\netcoreapp2.1\opcpublisher.runtimeconfig.json
+C:\Users\VITOSammarco\Desktop\Lavoro\IoT Snam\Scada Stoccaggio\Microsoft.Azure.IIoT.Modules.OpcUa.Publisher\src\bin\Release\netcoreapp2.1\opcpublisher.runtimeconfig.dev.json
+C:\Users\VITOSammarco\Desktop\Lavoro\IoT Snam\Scada Stoccaggio\Microsoft.Azure.IIoT.Modules.OpcUa.Publisher\src\bin\Release\netcoreapp2.1\opcpublisher.dll
+C:\Users\VITOSammarco\Desktop\Lavoro\IoT Snam\Scada Stoccaggio\Microsoft.Azure.IIoT.Modules.OpcUa.Publisher\src\bin\Release\netcoreapp2.1\opcpublisher.pdb
+C:\Users\VITOSammarco\Desktop\Lavoro\IoT Snam\Scada Stoccaggio\Microsoft.Azure.IIoT.Modules.OpcUa.Publisher\src\obj\Release\netcoreapp2.1\Microsoft.Azure.IIoT.Modules.OpcUa.Publisher.csprojAssemblyReference.cache
+C:\Users\VITOSammarco\Desktop\Lavoro\IoT Snam\Scada Stoccaggio\Microsoft.Azure.IIoT.Modules.OpcUa.Publisher\src\obj\Release\netcoreapp2.1\opcpublisher.dll
+C:\Users\VITOSammarco\Desktop\Lavoro\IoT Snam\Scada Stoccaggio\Microsoft.Azure.IIoT.Modules.OpcUa.Publisher\src\obj\Release\netcoreapp2.1\opcpublisher.pdb
+C:\Users\VITOSammarco\Desktop\Lavoro\IoT Snam\Scada Stoccaggio\Microsoft.Azure.IIoT.Modules.OpcUa.Publisher\src\bin\Release\netcoreapp2.1\publishednodes.json

@@ -1,0 +1,184 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\VITOSammarco\\Desktop\\Lavoro\\IoT Snam\\Scada Stoccaggio\\Microsoft.Azure.IIoT.Modules.OpcUa.Publisher\\tests\\Microsoft.Azure.IIoT.Modules.OpcUa.Publisher.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\VITOSammarco\\Desktop\\Lavoro\\IoT Snam\\Scada Stoccaggio\\Microsoft.Azure.IIoT.Modules.OpcUa.Publisher\\src\\Microsoft.Azure.IIoT.Modules.OpcUa.Publisher.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\VITOSammarco\\Desktop\\Lavoro\\IoT Snam\\Scada Stoccaggio\\Microsoft.Azure.IIoT.Modules.OpcUa.Publisher\\src\\Microsoft.Azure.IIoT.Modules.OpcUa.Publisher.csproj",
+        "projectName": "OpcPublisher",
+        "projectPath": "C:\\Users\\VITOSammarco\\Desktop\\Lavoro\\IoT Snam\\Scada Stoccaggio\\Microsoft.Azure.IIoT.Modules.OpcUa.Publisher\\src\\Microsoft.Azure.IIoT.Modules.OpcUa.Publisher.csproj",
+        "packagesPath": "C:\\Users\\VITOSammarco\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\VITOSammarco\\Desktop\\Lavoro\\IoT Snam\\Scada Stoccaggio\\Microsoft.Azure.IIoT.Modules.OpcUa.Publisher\\src\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\VITOSammarco\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.Azure.Devices": {
+              "target": "Package",
+              "version": "[1.18.1, )"
+            },
+            "Microsoft.Azure.Devices.Client": {
+              "target": "Package",
+              "version": "[1.21.1, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Mono.Options": {
+              "target": "Package",
+              "version": "[5.3.0.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.2, )"
+            },
+            "OPCFoundation.NetStandard.Opc.Ua.Symbols": {
+              "target": "Package",
+              "version": "[1.4.356.27, )"
+            },
+            "Serilog.Extensions.Logging": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Serilog.Sinks.Console": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\VITOSammarco\\Desktop\\Lavoro\\IoT Snam\\Scada Stoccaggio\\Microsoft.Azure.IIoT.Modules.OpcUa.Publisher\\tests\\Microsoft.Azure.IIoT.Modules.OpcUa.Publisher.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\VITOSammarco\\Desktop\\Lavoro\\IoT Snam\\Scada Stoccaggio\\Microsoft.Azure.IIoT.Modules.OpcUa.Publisher\\tests\\Microsoft.Azure.IIoT.Modules.OpcUa.Publisher.Tests.csproj",
+        "projectName": "Microsoft.Azure.IIoT.Modules.OpcUa.Publisher.Tests",
+        "projectPath": "C:\\Users\\VITOSammarco\\Desktop\\Lavoro\\IoT Snam\\Scada Stoccaggio\\Microsoft.Azure.IIoT.Modules.OpcUa.Publisher\\tests\\Microsoft.Azure.IIoT.Modules.OpcUa.Publisher.Tests.csproj",
+        "packagesPath": "C:\\Users\\VITOSammarco\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\VITOSammarco\\Desktop\\Lavoro\\IoT Snam\\Scada Stoccaggio\\Microsoft.Azure.IIoT.Modules.OpcUa.Publisher\\tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\VITOSammarco\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\VITOSammarco\\Desktop\\Lavoro\\IoT Snam\\Scada Stoccaggio\\Microsoft.Azure.IIoT.Modules.OpcUa.Publisher\\src\\Microsoft.Azure.IIoT.Modules.OpcUa.Publisher.csproj": {
+                "projectPath": "C:\\Users\\VITOSammarco\\Desktop\\Lavoro\\IoT Snam\\Scada Stoccaggio\\Microsoft.Azure.IIoT.Modules.OpcUa.Publisher\\src\\Microsoft.Azure.IIoT.Modules.OpcUa.Publisher.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Docker.DotNet": {
+              "target": "Package",
+              "version": "[3.125.2, )"
+            },
+            "Microsoft.Azure.Devices.Client": {
+              "target": "Package",
+              "version": "[1.21.1, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.3.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.13.0, )"
+            },
+            "Xunit.SkippableFact": {
+              "target": "Package",
+              "version": "[1.3.12, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
