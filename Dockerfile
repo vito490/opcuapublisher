@@ -1,8 +1,6 @@
-ARG runtime_base_tag=2.2-runtime-alpine
-ARG build_base_tag=2.2-sdk-alpine
-
-FROM microsoft/dotnet:${build_base_tag} AS build
+FROM docker-registry.default.svc:5000/openshift/dotnet:2.1 AS build
 WORKDIR /app
+<<<<<<< HEAD
 
 ##fix permission per /app##################
      chown -R opcpublisher /app && \
@@ -18,6 +16,8 @@ WORKDIR /app
      find /configuration -type d -exec chmod g+x {} + 
 ############################################
 
+=======
+>>>>>>> ccc1e294801435704b4f6fd1e9baa8d73e3c8082
 # copy csproj and restore as distinct layers
 COPY src/*.csproj ./opcpublisher/
 WORKDIR /app/opcpublisher
@@ -30,10 +30,17 @@ WORKDIR /app/opcpublisher
 RUN dotnet publish -c Release -o out
 
 # start it up
+<<<<<<< HEAD
 #FROM microsoft/dotnet:${runtime_base_tag} AS runtime
 #WORKDIR /app
 #COPY --from=build /app/opcpublisher/out ./
 COPY /app/opcpublisher/out ./ #Riga 22 solo Per Openshift
 #COPY ./src/*.json /appdata/
+=======
+FROM docker-registry.default.svc:5000/openshift/dotnet:2.1 AS runtime
+WORKDIR /app
+COPY --from=build /app/opcpublisher/out ./
+COPY ./src/*.json /appdata/
+>>>>>>> ccc1e294801435704b4f6fd1e9baa8d73e3c8082
 WORKDIR /appdata
 ENTRYPOINT ["dotnet", "/app/opcpublisher.dll", "opcuagateway", "connstring", "--autoaccept=TRUE", "-ll=DEBUG"]
